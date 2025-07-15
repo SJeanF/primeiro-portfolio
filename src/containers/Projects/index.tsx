@@ -1,4 +1,4 @@
-import Tittle from "../../components/tittle"
+import Tittle from "../../components/Tittle"
 import Project from "../../components/Project"
 import { List } from "./styles"
 

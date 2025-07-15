@@ -1,4 +1,4 @@
-import Tittle from "../../components/tittle"
+import Tittle from "../../components/Tittle"
 import Paragraph from "../../components/paragraph"
 import { GitHubSecao } from "./styles"
 

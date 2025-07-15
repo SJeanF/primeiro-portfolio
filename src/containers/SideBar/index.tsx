@@ -1,9 +1,13 @@
-import Tittle from "./../../components/tittle/index"
+import Tittle from "../../components/Tittle/index"
 import Avatar from "../../components/Avatar"
 import Paragraph from "../../components/paragraph"
 import { Description, Theme, SideBarContainer } from "./styles"
 
-const SideBar = () => {
+type Props = {
+  trocaTema: () => void
+}
+
+const SideBar = (props: Props) => {
   return (
     <aside>
       <SideBarContainer>
@@ -13,7 +17,7 @@ const SideBar = () => {
         <Description primary fontSize={12}>
           Desenvolvedor FullStack
         </Description>
-        <Theme>Trocar tema</Theme>
+        <Theme onClick={props.trocaTema}>Trocar tema</Theme>
       </SideBarContainer>
     </aside>
   )

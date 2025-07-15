@@ -1,4 +1,4 @@
-import Tittle from "../tittle"
+import Tittle from "../Tittle"
 import { Paragraph } from "./../paragraph/styles"
 import { Card, LinkBotao } from "./styles"
 
