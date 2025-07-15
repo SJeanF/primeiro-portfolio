@@ -7,7 +7,7 @@ const Projects = () => {
     <section>
       <Tittle fontSize={16}>Projetos</Tittle>
       <List>
-        {Array(8)
+        {Array(10)
           .fill(null)
           .map((_, index) => (
             <li key={index}>
